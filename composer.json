@@ -1,0 +1,16 @@
+{
+  "name": "amangini/artifact-deploy",
+  "description": "A Composer package that allows you to create artifact deployments.",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "amangini\\ArtifactDeploy\\": "src/"
+    }
+  },
+  "require": {
+    "symfony/yaml": "^5.0"
+  },
+  "scripts": {
+    "build": "php artifact-deploy.php"
+  }
+}

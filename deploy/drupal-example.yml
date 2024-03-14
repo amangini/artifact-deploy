@@ -1,0 +1,9 @@
+system: drupal
+do-not-ignore:
+  - vendor
+  - "*.min.css"
+  - "*.min.js"
+  - docroot/modules/contrib
+  - docroot/themes/contrib
+ignore:
+  - README.md
